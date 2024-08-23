@@ -3,9 +3,9 @@
 import pcbnew
 import os
 
-class SimplePlugin(pcbnew.ActionPlugin):
+class AdvancedLinearMotor(pcbnew.ActionPlugin):
     def defaults(self):
-        self.name = "motor_pcb"
+        self.name = "advance_linear_motor"
         self.category = ""
         self.description = "Test"
         self.show_toolbar_button = False # Optional, defaults to False
@@ -54,8 +54,7 @@ class SimplePlugin(pcbnew.ActionPlugin):
         pass
         
     def draw_motor(self):   
-        for i in range(self.phases):
-            self.draw_phase()
+        self.draw_base_tracks()
     
     def Run(self):     
         self.draw_motor()
