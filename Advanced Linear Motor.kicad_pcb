@@ -2581,7 +2581,7 @@
 			(xy 180 78) (xy 120 78)
 		)
 		(height 13)
-		(gr_text "60,0000 mm"
+		(gr_text "60.0000 mm"
 			(at 150 63.2 0)
 			(layer "F.Cu")
 			(uuid "99d32f64-18ec-4f7a-9440-68d2491930b4")
@@ -2614,7 +2614,7 @@
 			(xy 240 78) (xy 180 78)
 		)
 		(height 14.999999)
-		(gr_text "60,0000 mm"
+		(gr_text "60.0000 mm"
 			(at 210 61.200001 0)
 			(layer "F.Cu")
 			(uuid "bef8115b-7c12-4cd2-82d7-a47994fbae33")
@@ -2647,7 +2647,7 @@
 			(xy 60 78) (xy 120 78)
 		)
 		(height -17)
-		(gr_text "60,0000 mm"
+		(gr_text "60.0000 mm"
 			(at 90 59.2 0)
 			(layer "F.Cu")
 			(uuid "d746de19-7327-4e1a-92ed-fd62a8e1d8ac")
@@ -2680,7 +2680,7 @@
 			(xy 50 165) (xy 250 165)
 		)
 		(height 6)
-		(gr_text "200,0000 mm"
+		(gr_text "200.0000 mm"
 			(at 150 169.85 0)
 			(layer "Dwgs.User")
 			(uuid "49db2af6-ce73-41a9-a33f-9cf7d8acdc42")
@@ -2713,7 +2713,7 @@
 			(xy 51 102) (xy 51 152)
 		)
 		(height 12)
-		(gr_text "50,0000 mm"
+		(gr_text "50.0000 mm"
 			(at 37.85 127 90)
 			(layer "Dwgs.User")
 			(uuid "63a99fc2-7510-4525-9ae1-c9c2b9e10030")
@@ -2746,7 +2746,7 @@
 			(xy 55 86) (xy 55 70)
 		)
 		(height -12)
-		(gr_text "16,0000 mm"
+		(gr_text "16.0000 mm"
 			(at 41.85 78 90)
 			(layer "Dwgs.User")
 			(uuid "7bec15d4-367b-4067-81c2-b2bc051ee45a")
@@ -2779,7 +2779,7 @@
 			(xy 51 152) (xy 51 165)
 		)
 		(height 12)
-		(gr_text "13,0000 mm"
+		(gr_text "13.0000 mm"
 			(at 37.85 158.5 90)
 			(layer "Dwgs.User")
 			(uuid "7eb6d0fc-efb7-4da7-9180-118208ce49dd")
@@ -2812,7 +2812,7 @@
 			(xy 250 70) (xy 250 165)
 		)
 		(height -17)
-		(gr_text "95,0000 mm"
+		(gr_text "95.0000 mm"
 			(at 265.85 117.5 90)
 			(layer "Dwgs.User")
 			(uuid "929c9a0c-355f-4050-aeb2-85e51cfd4acd")
@@ -2836,6 +2836,14 @@
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
+	)
+	(segment
+		(start 0.00005 0.00007)
+		(end 0.00005 0.0003)
+		(width 2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "67c257df-3715-41f7-9dde-e8b868ba488d")
 	)
 	(segment
 		(start 110 86)
