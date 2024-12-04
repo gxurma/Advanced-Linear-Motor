@@ -59,11 +59,5 @@ This example uses a lower value for `number_of_tracks_per_pole`. The clearance i
 This example increases the `number_of_tracks_per_pole` and the clearance is kept at 0.25 mm.
 
 ![Example 2: Lower Track Density](examples/example_high_tracks.png)
-# Contribution
 
-Contributions are welcome! Fork the repository, make your changes, and open a pull request. Ensure your code follows the existing structure and coding standards.
-
-# License
-
-This project is licensed under the MIT License.
 
