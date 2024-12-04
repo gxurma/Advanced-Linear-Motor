@@ -51,12 +51,12 @@ These parameters can be found and adjusted in the `CONFIG` section of the code.
 # Examples with Different Parameters
 
 ## Example 1: Lower Number of Tracks
-This example uses a lower value for `number_of_tracks_per_pole`. The clearance is kept at 0.05 mm.
+This example uses a lower value for `number_of_tracks_per_pole`. The clearance is kept at 0.25 mm.
 
 ![Example 1: High Track Density](examples/example_low_tracks.png)
 
 ## Example 2: Higher Number of Tracks
-This example increases the `number_of_tracks_per_pole` and the clearance is kept at 0.05 mm.
+This example increases the `number_of_tracks_per_pole` and the clearance is kept at 0.25 mm.
 
 ![Example 2: Lower Track Density](examples/example_high_tracks.png)
 # Contribution
