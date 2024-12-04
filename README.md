@@ -14,8 +14,8 @@ An advanced design for linear motors. Uses also some advanced algorithms and Pyt
 # Adjustable Parameters
 The following parameters can be adjusted to customize the design:
 
-- **number_of_tracks_per_pole**: Defines the number of tracks within a single pole. Adjust this to control copper density and resistance.
-- **clearance**: Minimum spacing between tracks, in millimeters, to ensure proper electrical isolation.
+- **number_of_tracks_per_pole**: Defines the number of tracks within a single pole.
+- **clearance**: Minimum spacing between tracks, in millimeters.
 
 These parameters can be found and adjusted in the `CONFIG` section of the code.
 
